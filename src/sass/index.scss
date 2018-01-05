@@ -1,0 +1,26 @@
+.main{
+    background: #fafafa;
+    .lunbo{
+        height: 360px;
+    }
+    .jx{
+        width: 1200px;
+        height: 262px;
+        margin: 14px 0 0 32px;
+        position: relative;
+        img{position: absolute;top: 0;left: auto;}
+        .jx1{
+            background: white;
+            height: 230px;
+            ul{
+                li{
+                    height: 230px;
+                    width: 190px;
+                    border-right: 1px solid #dddddd;
+                    overflow: hidden;
+                }
+            }
+            
+        }
+    }
+}
