@@ -116,6 +116,7 @@
                width: 522px;
                background: white;
                border: 1px solid #CCCCCC;
+               display: none;
             }
             .te{
                 width: 522px;
@@ -215,7 +216,8 @@
                 top: 36px;
                 left: 0px;               
                 background: #faf6ee;
-                
+                z-index: 300;
+                opacity: 0.6;
 //              border: 1px solid;
                 li{
                     list-style: none;
@@ -225,12 +227,14 @@
                     &>a{
                         text-decoration: none;
                         font-size: 14px;
+                        opacity: 1;
                         color: #333333;
                     }
                     &:hover{
                         border-top: 1px solid #36c573;
                         border-bottom: 1px solid #36c573;
                         background: white;
+                        opacity: 1;
                     }
                 }               
             }

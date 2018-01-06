@@ -2,25 +2,372 @@
     background: #fafafa;
     .lunbo{
         height: 360px;
-    }
+        width: 1280px;
+        position: relative;
+        .lb{
+            height: 360px;
+            width: 1280px;
+            position: relative;          
+            li{
+                list-style: none;
+                float: left; 
+                position: absolute;              
+                img{
+                    margin-left: -320px;
+                    }
+            }            
+            }
+        .circle{
+            width: 180px;
+            height: 30px;
+            position: absolute;
+            top: 330px;
+            left: 565px;
+//          background: orange;
+            i{
+               background:white;
+               width: 14px;
+               height: 14px;
+               display: inline-block;
+               border-radius: 50%;
+               margin-right: 10px; 
+              }
+            .one{
+                background: #ffc000;
+                width: 30px;
+                height: 14px;
+                border-radius: 5px;
+                }
+            }
+        }
     .jx{
         width: 1200px;
         height: 262px;
         margin: 14px 0 0 32px;
         position: relative;
-        img{position: absolute;top: 0;left: auto;}
+        .gt{
+                height: 230px;
+                width: 54px;
+                position: absolute;
+                top: 32px;
+                left: 1140px;
+                &>img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    &:hover{cursor: pointer;}
+                    }
+            }                      
+        .im{
+            height: 32px;
+            position: relative; 
+          img{
+            position: absolute;
+            top: 0;
+            left: 517px;
+            }  
+        }
         .jx1{
             background: white;
             height: 230px;
-            ul{
+            width: 1200px;
+            box-shadow: 0px 3px 15px #C0C0C0;
+            overflow: hidden;
+            .uf1,.uf2,.uf3{
+                width: 1146px;
+                height: 230px;
+                float: left;               
                 li{
                     height: 230px;
                     width: 190px;
                     border-right: 1px solid #dddddd;
-                    overflow: hidden;
+                    list-style: none;
+                    float: left;               
+                    &>img{
+                        width: 160px;
+                        height: 160px;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                        }                   
+                    }
                 }
-            }
             
+            
+        }
+    }
+    .vegetables{
+        width: 1234px;
+        height: 540px;
+        
+        .ve{
+            height: 80px;
+            background: #fafafa;
+           
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .vebox{
+            height: 460px;
+            background: url(../images/第一组图片/rBLsjlk3pjiAIrl1AAK-CARzKeo276.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+            
+        }
+    }
+    .fruit{
+        width: 1234px;
+        height: 540px;
+        
+        .fr{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .frbox{
+            height: 460px;
+            background: url(../images/水果专区/rBLsjVk3pkCAHuo-AAJy8KAsih8845.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .seafood{
+        width: 1234px;
+        height: 540px;
+        
+        .sea{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .seabox{
+            height: 460px;
+            background: url(../images/海鲜水产/rBLsjlk3pkmAR-wxAAKznGIdHVc471.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .meat{
+        width: 1234px;
+        height: 540px;
+        
+        .mea{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .meabox{
+            height: 460px;
+            background: url(../images/精选肉类/rBLsjVk3plKAIzFxAAMbqzBY8Dg279.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .snacks{
+        width: 1234px;
+        height: 540px;
+       
+        .sna{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .snabox{
+            height: 460px;
+            background: url(../images/干货零食/rBLsjlk3plqAOai9AAMAwfooDZk318.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .seasoning{
+        width: 1234px;
+        height: 540px;
+        
+        .sso{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .ssobox{
+            height: 460px;
+            background: url(../images/厨房调料/rBLsjVk3pmSAIbjmAALGJSnk7gg969.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .frozenfood{
+        width: 1234px;
+        height: 540px;
+        
+        .froz{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .frozbox{
+            height: 460px;
+            background: url(../images/速冻食品/rBLsjlk3pmuAMMq-AAJYzlKWxuM780.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .grainandoil{
+        width: 1234px;
+        height: 540px;
+        
+        .gra{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .grabox{
+            height: 460px;
+            background: url(../images/粮油专区/rBLsjVk3pnKAHMp1AAMJBHYu65w158.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
+        }
+    }
+    .drinks{
+        width: 1234px;
+        height: 540px;
+       
+        .drin{
+            height: 80px;
+            background: #fafafa;
+            span{display: inline-block;}
+            .sp1{
+                font-size: 23px;
+                float: left;
+                padding-top: 46px;
+                margin-left: 44px;
+                color: #666666;
+                }
+            .sp2{
+                font-size: 14px;
+                float: left;
+                padding-top: 54px;
+                color: #666666;
+                i{margin-left: 12px;margin-right: 8px;}
+                }
+        }
+        .drinbox{
+            height: 460px;
+            background: url(../images/饮料专区/rBLsjlk3pniAWzv3AAJ39obmBLk646.png) no-repeat -16px 0px;
+            background-color: white;
+            a{display: inline-block;width: 434px;height: 460px;}
         }
     }
 }

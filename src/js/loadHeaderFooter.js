@@ -24,6 +24,16 @@ define(["jquery"], function($){
 		$(".seach-en .te").click(function(){
 			$(".info").css("display","block");
 		})
+	}).done(function(){
+		var top=$(".u3").scrollTop();
+		console.log(top);
+		if($(".seach").scrollTop()<=top){
+			$(".seach").scrollTop(-30);
+			$(".seach").css({
+				"borderBottom":"1px solid #7bbe2b",
+				"opacity":0.5
+			});
+		}
 	});
 	$(".footer").load("/html/include/footer.html");
 });
