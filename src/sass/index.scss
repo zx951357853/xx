@@ -1,9 +1,17 @@
 .main{
-    background: #fafafa;
+    background: #fafafa;  
+    .louceng{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        list-style: none;
+        border: 1px solid;
+    }
     .lunbo{
         height: 360px;
         width: 1280px;
         position: relative;
+        margin: 0 auto;
         .lb{
             height: 360px;
             width: 1280px;
@@ -45,6 +53,7 @@
         height: 262px;
         margin: 14px 0 0 32px;
         position: relative;
+        margin: 0 auto;
         .gt{
                 height: 230px;
                 width: 54px;
@@ -101,7 +110,7 @@
     .vegetables{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .ve{
             height: 80px;
             background: #fafafa;
@@ -133,7 +142,7 @@
     .fruit{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .fr{
             height: 80px;
             background: #fafafa;
@@ -163,7 +172,7 @@
     .seafood{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .sea{
             height: 80px;
             background: #fafafa;
@@ -193,7 +202,7 @@
     .meat{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .mea{
             height: 80px;
             background: #fafafa;
@@ -223,7 +232,7 @@
     .snacks{
         width: 1234px;
         height: 540px;
-       
+       margin: 0 auto;
         .sna{
             height: 80px;
             background: #fafafa;
@@ -253,7 +262,7 @@
     .seasoning{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .sso{
             height: 80px;
             background: #fafafa;
@@ -283,7 +292,7 @@
     .frozenfood{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .froz{
             height: 80px;
             background: #fafafa;
@@ -313,7 +322,7 @@
     .grainandoil{
         width: 1234px;
         height: 540px;
-        
+        margin: 0 auto;
         .gra{
             height: 80px;
             background: #fafafa;
@@ -343,7 +352,7 @@
     .drinks{
         width: 1234px;
         height: 540px;
-       
+       margin: 0 auto;
         .drin{
             height: 80px;
             background: #fafafa;
@@ -368,6 +377,10 @@
             background: url(../images/饮料专区/rBLsjlk3pniAWzv3AAJ39obmBLk646.png) no-repeat -16px 0px;
             background-color: white;
             a{display: inline-block;width: 434px;height: 460px;}
+        }
+        .shouwei{
+            width: 100%;
+            height: 50px;
         }
     }
 }

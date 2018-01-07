@@ -15,7 +15,7 @@ define(["jquery"], function($){
 				$(".info").html(html);
 			})
 			
-		})
+			})
 		//绑定失去光标事件
 		$(".seach-en .te").blur(function(){
 			$(".info").css("display","none");
@@ -23,17 +23,43 @@ define(["jquery"], function($){
 		//绑定点击事件
 		$(".seach-en .te").click(function(){
 			$(".info").css("display","block");
-		})
-	}).done(function(){
-		var top=$(".u3").scrollTop();
-		console.log(top);
-		if($(".seach").scrollTop()<=top){
-			$(".seach").scrollTop(-30);
-			$(".seach").css({
-				"borderBottom":"1px solid #7bbe2b",
-				"opacity":0.5
+		});
+		}).done(function(){
+			$(window).scroll(function(){
+				var _scrolltop=$(window).scrollTop(),
+					seachWidth=$(".seach").outerWidth(),
+//					seachHeight=$(".seach").outerHeight(),
+					windowWidth=$(window).innerWidth();
+//					windowHeight=$(window).innerHeight();
+				var _left=(windowWidth-seachWidth)/2;
+				console.log(_left);
+				if(_scrolltop>=60){
+					$(".u0tow").css({
+						"top":"0",
+						"position":"fixed",
+						"z-index":"200",						
+						"borderBottom":"2px solid #36c573"
+						});
+					
+				}else{
+					$(".u0tow").css({
+						"top":60+"px",
+						"left":"_left",						
+						"borderBottom":"none"
+					});					
+				}
 			});
-		}
+//		var top=$(".u3").scrollTop(),
+//		top1=$().scrollTop();
+//		console.log(top1);
+//		if(top1>=30){			
+//			$(".seach").css({
+//				"top":-30+"px",
+//				"borderBottom":"1px solid #7bbe2b",
+//				"background":"rgba(255,255,255,0.5)"
+//			});
+//		};
 	});
+//	});
 	$(".footer").load("/html/include/footer.html");
 });

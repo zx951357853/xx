@@ -53,6 +53,21 @@ require(["config"], function(){
 		})
 		$(".jx").delegate(".gt","click",function(){
 			$(".jx1 .uf1").css("margin-left",-1146+"px");
+		});
+		//定位楼层的位置
+		//获取楼层的宽度和高度
+		var lcW=$(".louceng").outerWidth(),
+			lcH=$(".louceng").outerHeight();
+		//获取窗口的宽度和高度
+		var winW=$(window).innerWidth(),
+			winH=$(window).innerHeight();
+		var _w=winW-lcW,
+			_h=winH-lcH;
+			console.log(_w,_h);
+		//设置css属性
+		$(".louceng").css({
+			"top":_h+"px",
+			"left":_w+"px"
 		})
 	});
 });
