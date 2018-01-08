@@ -66,8 +66,42 @@ require(["config"], function(){
 			console.log(_w,_h);
 		//设置css属性
 		$(".louceng").css({
-			"top":_h+"px",
-			"left":_w+"px"
-		})
+			"top":_h-18+"px",
+			"left":_w-18+"px"
+		});
+		//给楼层设置显示与隐藏
+			var _ve=$(".vebox").offset().top;
+			$(window).scroll(function(){
+				var _win=$(window).scrollTop();				    
+				if(_win>=_ve)
+				$(".louceng").css("display","block");
+				else
+				$(".louceng").css("display","none");
+				
+			});
+						
+		//通过事件委派给每个楼层绑定点击事件
+		$(".louceng").delegate("li:not(:nth-child(10),:nth-child(11),:last)","click",function(){
+				var _num=$(this).index(),
+					_top=_ve+_num*520;				
+				$("html,body").animate({scrollTop:_top},3000)
+		});
+		//给楼层里面的银犁商城绑定移入与移出事件
+		$(".louceng .cl11").mouseenter(function(){
+			$(".cl11 img").css("display","block")
+		});
+		$(".louceng .cl11").mouseleave(function(){
+			$(".cl11 img").css("display","none")
+		});
+		$(".cl11 img").mouseenter(function(){
+			$(".cl11 img").css("display","none")
+		});
+		$(".cl10 .sp-2").mouseenter(function(){
+			$(".cl10 sp-2").css("display","block")
+		});
+		
+//		$(".louceng").delegate("li:nth-child(12))","click",function(){
+//				$("html,body").animate({scrollTop:0},3000)																		
+//		});
 	});
 });

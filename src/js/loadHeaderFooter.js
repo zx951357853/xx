@@ -32,7 +32,7 @@ define(["jquery"], function($){
 					windowWidth=$(window).innerWidth();
 //					windowHeight=$(window).innerHeight();
 				var _left=(windowWidth-seachWidth)/2;
-				console.log(_left);
+				
 				if(_scrolltop>=60){
 					$(".u0tow").css({
 						"top":"0",
