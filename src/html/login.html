@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>登录</title>
-	<link rel="stylesheet" type="text/css" href="../../dist/css/login.css"/>	
+	<link rel="stylesheet" type="text/css" href="../css/login.css"/>	
 	<script src="../lib/requirejs/require.js" data-main="../js/loginandregister"></script>
 </head>
 <body>
@@ -16,11 +16,11 @@
 				<span>银犁APP</span>
 				<ul class="erweima">
 					<li>
-						<img src="../../dist/images/Android.png"/>
+						<img src="../images/Android.png"/>
 						<p class="p0">Android下载</p>
 					</li>
 					<li>
-						<img src="../../dist/images/i.png"/>
+						<img src="../images/i.png"/>
 						<p class="p01">iOS下载</p>
 					</li>
 				</ul>
@@ -43,19 +43,23 @@
 	</div>
 	<div class="banner">
 		<div class="banner1">
-			<img src="../../dist/images/login-login.png"/>
+			<img src="../images/login-login.png"/>
 			<div class="lg">
 				<div class="kaishi">
 					<h3>注册</h3>
-					<input type="text" id="" value="" placeholder="请输出手机号" />
-					<input type="text" id="" value="" placeholder="请输入密码"/>
-					<input type="text" id="" value="" placeholder="请再次输入密码"/>
-					<input type="text" id="" value="" placeholder="请输入手机验证码"/>
-					<input type="submit" id="" value="发送验证码" />
+					<p class="lgp1"></p>
+					<input type="text" class="lgp11" value="" placeholder="请输出手机号" />
+					<p class="lgp2" ></p>
+					<input type="text" class="lgp21" value="" placeholder="请输入密码"/>
+					<p class="lgp3"></p>
+					<input type="text" class="lgp31" value="" placeholder="请再次输入密码"/>
+					<p class="lgp5"></p>
+					<input type="text" class="lgp41" value="" placeholder="请输入手机验证码"/>
+					<img src="" class="lgp4"/>
 					<input type="checkbox" id="" value="" />
 					<span class="span1">我已阅读并同意</span>
 					<span class="span2">《银犁用户注册协议》</span>
-					<input type="button" id="" value="注册" />
+					<input type="button" id="longin" value="注册" />
 				</div>								
 				<div class="mowei">
 					<ul class="ulg1">
@@ -70,11 +74,13 @@
 						<li class="li21">手机密码登录</li>
 						<li class="li22">手机验证码登录</li>						
 					</ul>
-					<input type="text" id="" value="" placeholder="请输入手机号码"/>
-					<input type="text" id="" value="" placeholder="请输入密码"/>
-					<input type="checkbox" id="" value="" />
+					<p class="inp2"></p>
+					<input type="text" id="lg21" value="" placeholder="请输入手机号码"/>
+					<p class="inp1"></p>
+					<input type="text" id="lg22" value="" placeholder="请输入密码"/>		
+					<input type="checkbox" id="lg23" value="" />
 					<span>自动登录</span>
-					<input type="submit" id="" value="登录" />					
+					<input type="submit" id="lg24" value="登录" />					
 				</div>
 				<div class="mowei2">
 					<h3>立刻注册<span>&gt;</span></h3>

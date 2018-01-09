@@ -107,7 +107,7 @@
                 display: block;
                 width: 190px;
                 height: 43px;
-                background: url(../../dist/images/PC-LOGO.png) no-repeat center center;
+                background: url(../images/PC-LOGO.png) no-repeat center center;
                 span{display: none;}
             }
         }
@@ -140,42 +140,49 @@
                 height: 400px;
                 padding: 0 25px;
                 h3{
-                height: 85px;               
-                line-height: 85px;
+                height: 65px;               
+                line-height: 100px;
                 };
+                .lgp1{height: 25px;}
+                .lgp2,.lgp3{height: 20px;}
+                .lgp4{
+                    height: 38px;
+                    width: 100px;
+                    float: left;
+                    margin-left: 21px;                        
+                    }
+                .lgp5{height: 20px;}
                 input{
                     outline: none;
                     height: 38px;
-                    width: 278px;
-                    margin-bottom: 20px;
-                    &:nth-child(5){
+                    width: 278px;                   
+                    &:nth-child(9){
                         width: 155px;
-                        float: left;
-                       
-                    }
-                    &:nth-child(6){
-                        width: 100px;
-                        float: left;
-                        margin-left: 21px;
-                        
-                    }
-                    &:nth-child(7){
+                        float: left;                       
+                    }                   
+                    &:nth-child(11){
                         width: 12px;
                         height: 12px;
                         border: 1px solid #b2b2b2;
-                        border-radius: 2px; 
+                        border-radius: 2px;
+                        margin-top: 20px; 
                         margin-bottom: 10px;               
                     }
-                    &:nth-child(10){
+                    &:nth-child(14){
                         margin-bottom: 0px;
-                    } 
-                    
+                        background: #ffc000;
+                        outline: none;
+                        color: white;
+                        font-size: 14px;
+                        border: none;
+                        border-radius: 5px;
+                        &:hover{background: #ff9000;}
+                    }                    
                 }
                 .span1{font-size: 12px;}
                 .span2{font-size: 12px;color: #7bbe2b;
                 } 
-            }
-            
+        }            
             .mowei{
                 height: 35px;
                 background: #f5f5f5;
@@ -214,8 +221,8 @@
                 width: 328px;
                 padding: 0 25px;
                 ul{
-                    height: 96px;
-                    background: url(../../dist/images/shugang.gif) no-repeat 110px 38px;
+                    height: 76px;
+                    background: url(../images/shugang.gif) no-repeat 110px 38px;
                     li{
                         list-style: none;
                         margin-top: 33px;
@@ -241,29 +248,31 @@
                         }
                     }
                 }
+                .inp2{height: 20px;}
+                .inp1{height: 20px;}
                 input{
                     width: 278px;
                     height: 38px;
                     outline: none;
                     border:1px solid #dddddd;
-                    &:nth-child(2){
-                        background: url(../../dist/images/rentou.gif) no-repeat 0px 0px;                     
-                        padding-left: 44px;
-                        margin-bottom: 18px;
-                    }
                     &:nth-child(3){
-                        background:url(../../dist/images/suo.gif) no-repeat 0px 0px; ;
+                        background: url(../images/rentou.gif) no-repeat 0px 0px;                     
+                        padding-left: 44px;
+                        margin-bottom: 10px;
+                    }
+                    &:nth-child(5){
+                        background:url(../images/suo.gif) no-repeat 0px 0px; ;
                         padding-left: 44px;
                     }
-                    &:nth-child(4){
+                    &:nth-child(6){
                         width: 12px;
                         height: 12px;
                         border: 1px solid #b2b2b2;
                         margin-top: 15px;
-                        margin-bottom: 16px;
+                        margin-bottom: 10px;
                         float: left;
                     }
-                    &:nth-child(6){
+                    &:nth-child(8){
                         border-radius: 5px;
                         background: #ffc000;
                         border: none;
@@ -321,7 +330,7 @@
                 padding: 0 25px;
                 ul{
                     height: 96px;
-                    background: url(../../dist/images/shugang.gif) no-repeat 110px 38px;
+                    background: url(../images/shugang.gif) no-repeat 110px 38px;
                     li{
                         list-style: none;
                         margin-top: 33px;
@@ -349,7 +358,7 @@
                     outline: none;
                     border:1px solid #dddddd;
                      &:nth-child(2){
-                        background: url(../../dist/images/rentou.gif) no-repeat 0px 0px;                     
+                        background: url(../images/rentou.gif) no-repeat 0px 0px;                     
                         padding-left: 44px;
                         margin-bottom: 18px;
                     }

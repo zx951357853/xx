@@ -7,6 +7,7 @@
         list-style: none;
         border: 4px solid #7bbe2b;
         display: none;
+        z-index: 600;
         li{
             border-bottom: 1px solid #7bbe2b;
             width: 42px;
@@ -34,6 +35,7 @@
                 border: 4px solid #7bbe2b;
                 display: none;
                 font-size: 12px;
+                
                 a{font-size: 13px;color:#7bbe2b ;}
 //              .sp-1{font-size: 12px;z-index: 300;display: inline-block;}
             }
@@ -185,8 +187,65 @@
             height: 460px;
             background: url(../images/第一组图片/rBLsjlk3pjiAIrl1AAK-CARzKeo276.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
-            
+            a{
+                display:block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+            ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    position: relative;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    border-right: 1px solid #dddddd;
+                    &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                    a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{
+                           margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                    }
+                }
+            }
         }
     }
     .fruit{
@@ -211,12 +270,72 @@
                 color: #666666;
                 i{margin-left: 12px;margin-right: 8px;}
                 }
+                
         }
         .frbox{
             height: 460px;
             background: url(../images/水果专区/rBLsjVk3pkCAHuo-AAJy8KAsih8845.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    position: relative;
+                    
+                    border-right: 1px solid #dddddd;               
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }
         }
     }
     .seafood{
@@ -241,12 +360,72 @@
                 color: #666666;
                 i{margin-left: 12px;margin-right: 8px;}
                 }
+                
         }
         .seabox{
             height: 460px;
             background: url(../images/海鲜水产/rBLsjlk3pkmAR-wxAAKznGIdHVc471.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    position: relative;
+                    
+                    border-right: 1px solid #dddddd;
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }
         }
     }
     .meat{
@@ -271,12 +450,72 @@
                 color: #666666;
                 i{margin-left: 12px;margin-right: 8px;}
                 }
+                
         }
         .meabox{
             height: 460px;
             background: url(../images/精选肉类/rBLsjVk3plKAIzFxAAMbqzBY8Dg279.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    position: relative;
+                    
+                    border-right: 1px solid #dddddd;
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }    
         }
     }
     .snacks{
@@ -306,7 +545,66 @@
             height: 460px;
             background: url(../images/干货零食/rBLsjlk3plqAOai9AAMAwfooDZk318.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    position: relative;
+                    
+                    border-right: 1px solid #dddddd;
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }    
         }
     }
     .seasoning{
@@ -336,7 +634,66 @@
             height: 460px;
             background: url(../images/厨房调料/rBLsjVk3pmSAIbjmAALGJSnk7gg969.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    position: relative;
+                    
+                    border-right: 1px solid #dddddd;
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }    
         }
     }
     .frozenfood{
@@ -366,7 +723,66 @@
             height: 460px;
             background: url(../images/速冻食品/rBLsjlk3pmuAMMq-AAJYzlKWxuM780.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    position: relative;
+                    
+                    border-right: 1px solid #dddddd;
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }    
         }
     }
     .grainandoil{
@@ -396,7 +812,72 @@
             height: 460px;
             background: url(../images/粮油专区/rBLsjVk3pnKAHMp1AAMJBHYu65w158.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    height: 229.5px;
+                    list-style: none;
+                    position: relative;
+                    
+                    float: left;
+                    border-right: 1px solid #dddddd;
+                    &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                    &:hover{
+                        .ip3{display: block;}
+                        a{
+                            img{margin-top: 0;}
+                        }
+                    }
+                    a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }    
         }
     }
     .drinks{
@@ -426,11 +907,71 @@
             height: 460px;
             background: url(../images/饮料专区/rBLsjlk3pniAWzv3AAJ39obmBLk646.png) no-repeat -16px 0px;
             background-color: white;
-            a{display: inline-block;width: 434px;height: 460px;}
+            a{
+                display: inline-block;
+                width: 434px;
+                height: 460px;
+                float: left;
+                }
+             ul{
+                width: 800px;
+                height: 460px;
+                float: left;
+                li{
+                    width: 199px;
+                    position: relative;
+                    height: 229.5px;
+                    list-style: none;
+                    float: left;
+                    border-right: 1px solid #dddddd;
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){border-bottom: 1px solid #dddddd;}
+                a{  
+                        height: 180px;
+                        width: 199px;
+                        display: block;
+                        float: none;                   
+                       img{margin-top: 19px;
+                           width: 160px;
+                           height: 160px;
+                           margin-left: 19px;
+                       }     
+                    }
+                    .ip1{
+                        font-size: 14px;
+                        text-align: center;
+                        width: 199px;
+                        height: 16px;
+                       color: #a38989;
+                    }
+                    .ip2{
+                        font-size: 13px;
+                        text-align: center;
+                        color: #ff4e00;
+                        padding-top: 14px;
+                        
+                    }
+                    .ip3{
+                        position: absolute;
+                        top: 180px;
+                        left: 0px;
+                        height: 49.5px;
+                        width: 199px;
+                        background: #ffc000;
+                        color: #333333;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 49.5px;
+                        font-weight: 600;
+                        display: none;
+                        
+                    }
+                }
+            }    
         }
-        .shouwei{
+        
+    }
+    .shouwei{
             width: 100%;
             height: 50px;
         }
-    }
 }

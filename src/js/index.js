@@ -1,6 +1,7 @@
 require(["config"], function(){
 	require(["jquery","load"], function($){
-		//自动轮播。大轮播图，淡入淡出的方式
+		$(function(){
+			//自动轮播。大轮播图，淡入淡出的方式
 		//获取所有的图片		
 			var lis=$(".lb li"),
 				len=lis.length,
@@ -99,9 +100,18 @@ require(["config"], function(){
 		$(".cl10 .sp-2").mouseenter(function(){
 			$(".cl10 sp-2").css("display","block")
 		});
-		
+		//绑定移入事件
+		$(".all li").mouseenter(function(){
+			$(this .ip3).show(2000);
+			
+		});
+		$(".all li").mouseleave(function(){
+			
+		});
 //		$(".louceng").delegate("li:nth-child(12))","click",function(){
 //				$("html,body").animate({scrollTop:0},3000)																		
 //		});
+		});
+		
 	});
 });

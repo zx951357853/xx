@@ -3,13 +3,15 @@
 	"res_error" : "",
 	"res_body" : {
 		"data" : [
-			{"id":1, "title":"标题1", "price":111},
-			{"id":2, "title":"标题2", "price":1211},
-			{"id":3, "title":"标题3", "price":311},
-			{"id":4, "title":"标题4", "price":411},
-			{"id":5, "title":"标题5", "price":511},
-			{"id":6, "title":"标题6", "price":611},
-			{"id":7, "title":"标题7", "price":711}
+			{"id":1, "title":"豌豆粒 300g/份", "price":"¥"&5.00,"img":"../../dist/images/rBLsjloEEqCAEa4tAAQoXHUkPEY808.jpg"},
+			{"id":2, "title":"精品本地胡萝卜 400g/份", "price":"¥"&3.50,"img":"../../dist/images/rBLsjlnoEg2ATZfqAAMVfZWMHd8672.jpg"},
+			{"id":3, "title":"松花菜 350~400g/份", "price": "¥"&2.90,"img":"../../dist/images/rBLsjlnoMO6APPMHAAdbKk__pV0135.jpg"},
+			{"id":4, "title":"莲白 1250~1500g/份", "price":"¥"&3.30,"img":"../../dist/images/rBLsjVnIvjCAdXTwAAUJFVa6CNs876.jpg"},
+			{"id":5, "title":"豆腐干 240~260g/份", "price":"¥"&2.60,"img":"../../dist/images/rBLsjVkMh_uADs6fAAPS2nJ3HM4285.jpg"},
+			{"id":6, "title":"红薯 500g/份", "price": "¥"&2.10,"img":"../../dist/images/rBLsjVnoBkCAINQBAAXiJCJKXB8791.jpg"},
+			{"id":7, "title":"粗山药 400~500g", "price":"¥"&3.15,"img":"../../dist/images/rBLsjVnoA7-AQpHaAASSNWFtZ6w668.jpg"},
+			{"id":8, "title":"红油菜薹 300g/份", "price":"¥"& 3.30,"img":"../../dist/images/rBLsjVoWKKaAJsyUAAU5gLD7mao587.jpg"}
+			
 		]
 	}
 }
