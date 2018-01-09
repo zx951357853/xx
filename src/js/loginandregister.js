@@ -117,23 +117,33 @@ require(["config"],function(){
 		 	var	values={
 				"name":user,
 				"value":_password
-			};
-			//判断是否存在cookie
-			var _users=$.cookie("users");		
-			if(_users)
+			};	
+			if(user==''){
+				$(".lgp1").html("请输入账号");
+				$("#longin").attr("disabled","true");		
+			}else{
+				//判断是否存在cookie
+			var _users=$.cookie("users");				
+			if(_users){
 			_users=JSON.parse(_users);
+			_users=Array.from(_users);
+			}
 			else
 			_users=[];
+//			console.log(_users)
 			//判断values里面的name是否存在于cookie中
-			var index=$.inArray(values.name,_users);
+//			var c=_users.name;
+//			console.log(c)
+			var index=$.inArray(values.name,_users.name);
+//			console.log(index);
 			if(index==-1)
 				_users.push(values);
 			else
-			$(".lgp1").html("该账号以存在");
-			
-			
-			$.cookie("users",JSON.stringify(values),{expires:1});
+			$(".lgp1").html("该账号以存在");			
+			$.cookie("users",JSON.stringify(_users),{expires:1});
 			var a=$.cookie("users");
+			console.log(a)
+			}
 			
 							
 		});
