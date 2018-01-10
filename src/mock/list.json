@@ -3,14 +3,23 @@
 	"res_error" : "",
 	"res_body" : {
 		"data" : [
-			{"id":1, "title":"豌豆粒 300g/份", "price":"¥"&5.00,"img":"../../dist/images/rBLsjloEEqCAEa4tAAQoXHUkPEY808.jpg"},
-			{"id":2, "title":"精品本地胡萝卜 400g/份", "price":"¥"&3.50,"img":"../../dist/images/rBLsjlnoEg2ATZfqAAMVfZWMHd8672.jpg"},
-			{"id":3, "title":"松花菜 350~400g/份", "price": "¥"&2.90,"img":"../../dist/images/rBLsjlnoMO6APPMHAAdbKk__pV0135.jpg"},
-			{"id":4, "title":"莲白 1250~1500g/份", "price":"¥"&3.30,"img":"../../dist/images/rBLsjVnIvjCAdXTwAAUJFVa6CNs876.jpg"},
-			{"id":5, "title":"豆腐干 240~260g/份", "price":"¥"&2.60,"img":"../../dist/images/rBLsjVkMh_uADs6fAAPS2nJ3HM4285.jpg"},
-			{"id":6, "title":"红薯 500g/份", "price": "¥"&2.10,"img":"../../dist/images/rBLsjVnoBkCAINQBAAXiJCJKXB8791.jpg"},
-			{"id":7, "title":"粗山药 400~500g", "price":"¥"&3.15,"img":"../../dist/images/rBLsjVnoA7-AQpHaAASSNWFtZ6w668.jpg"},
-			{"id":8, "title":"红油菜薹 300g/份", "price":"¥"& 3.30,"img":"../../dist/images/rBLsjVoWKKaAJsyUAAU5gLD7mao587.jpg"}
+			{"id":1, "title":"白味红衣炒花生 1斤装（7度焦香）", "price1":" ¥ 7.00","price2":"¥ 10.00","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/88.jpg","img1":"../images/list/carIcon.png","dscrit":"个头大，颗粒饱满，炒制香脆，浓香回味。红衣花生为浅红色或暗红色，皮质轻又薄，其营养成分更丰富，主要含有纤维素、蛋白质、脂肪和多酚类物质，具有一定的抑制血小板减少或者改善贫血的作用。"},
+			{"id":2, "title":"白味红衣炒花生 4斤装（7度焦香）", "price1":"  ¥ 24.00","price2":"¥ 32.00","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/33.jpg","img1":"../images/list/carIcon.png","dscrit":"三粒红皮、零添加、颗粒饱满，炒制香脆，浓香回味。蛋白质、脂肪、糖类、维生素A、维生素B6、维生素E、维生素K，以及矿物质钙、磷、铁等营养成分，含有8种人体所需的氨基酸及不饱和脂肪酸，含卵磷脂、胆碱、胡萝卜素、粗纤维等物质。[3]脂肪含量为44%-45%，蛋"},
+			{"id":3, "title":"白味生脆 瓜子 1斤装", "price1":" ¥ 8.00","price2":"¥ 10.00","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/2.jpg","img1":"../images/list/carIcon.png","dscrit":"零添加、自然晾晒、颗粒饱满，好果率高达98%。源自内蒙好味道。"},
+			{"id":4, "title":"白味生脆大瓜子居家 3斤装", "price1":" ¥ 19.90","price2":" ¥ 30.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/3.jpg","img1":"../images/list/carIcon.png","dscrit":"零添加、自然晾晒、颗粒饱满，好果率高达98%，口感脆香，3斤家庭装。"},
+			{"id":5, "title":"白味炒香瓜子居家3斤装（8度焦香）", "price1":"  ¥ 24.00","price2":"¥ 30.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/4.jpg","img1":"../images/list/carIcon.png","dscrit":"5度焦香表示刚炒熟，10度焦香表示完全炒焦，不可食用。此款商品炒制焦香程度为8度，香脆可口、回味无穷。炒香口味，无任何增香剂、好果率高达98%、炒制适中、颗粒饱满。娱乐消遣佳选。"},
+			{"id":6, "title":"白味炒香瓜子（8度焦香）1斤装", "price1":" ¥ 9.00","price2":" ¥ 11.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/5.jpg","img1":"../images/list/carIcon.png","dscrit":"5度焦香表示刚炒熟，10度焦香表示完全炒焦，不可食用。此款商品炒制焦香程度为8度，香脆可口、回味无穷。炒香口味，无任何增香剂、好果率高达98%、炒制适中、颗粒饱满。娱乐消遣佳选。"},
+			{"id":7, "title":"美洋洋 羔羊肋排 1300-1400g/份", "price1":" ¥ 82.00","price2":" ¥ 130.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/6.jpg","img1":"../images/list/carIcon.png","dscrit":"精选内蒙古乌拉特草原羔羊肉。"},
+			{"id":8, "title":"草原晶鑫 羔羊腿排切片 900-1000g/份 8片装", "price1":" ¥ 69.80","price2":" ¥ 82.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/7.jpg","img1":"../images/list/carIcon.png","dscrit":"来自蒙古草原的恩赐。"},
+			{"id":9, "title":"银犁精选 精选羊蹄2-3只装 450-470g/份", "price1":"  ¥ 14.20","price2":" ¥ 19.60 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/8.jpg","img1":"../images/list/carIcon.png","dscrit":"本品选用内蒙古草原圈养羔羊羊蹄，原生态产品；"},
+			{"id":10, "title":"草原晶鑫 羔羊前棒 900g-1000g/份", "price1":" ¥ 49.50","price2":" ¥ 57.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/9.jpg","img1":"../images/list/carIcon.png","dscrit":"精选180天蒙古草原小羔羊，排酸分割处理，带骨连肉，适宜各种炖烧"},
+			{"id":11, "title":"草原晶鑫 羔羊背排小切 600-650g/份", "price1":"  ¥ 47.90","price2":" ¥ 60.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/10.jpg","img1":"../images/list/carIcon.png","dscrit":"精选食材，鲜香不膻，肉质鲜嫩，火锅炖菜均可"},
+			{"id":12, "title":"草原晶鑫 羔羊颈排小切 640-700g/份", "price1":" ¥ 49.80","price2":"¥ 64.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/11.jpg","img1":"../images/list/carIcon.png","dscrit":"来自蒙古草原的恩赐。"},
+			{"id":13, "title":"犁羊 火锅牛排 150g/份", "price1":" ¥ 16.80","price2":" ¥ 28.00 ","jiage": "该价格统计为各大超市及菜市场 均价" ,"fuwu":"由银犁食品发货，并提供售后服务","img":"../images/list/12.jpg","img1":"../images/list/carIcon.png","dscrit":"为火锅而生;"}
+
+			
+			
+			
 			
 		]
 	}

@@ -43,11 +43,13 @@
     //                 border: 1px solid;
                        display: none;
                        background: white;
+                       z-index: 300;
                        li{
                            float: left;
                            padding:0 15px;
                            border: none;
                            margin-top: 17px;
+                           
                            
                         }
                         li:nth-child(1){
@@ -223,15 +225,18 @@
                 padding-left: 30px;           
                 background:url("../images/xialajt.gif") no-repeat 150px center; 
                 background-color: #36c573;
+                &:hover{
+                    .uxiala{display: block;z-index: 300;}
+                }
                 &>.uxiala{
                     height: 360px;
                     width: 180px;
                     position: absolute;
                     top: 32px;
                     left: 0px;               
-                    background: rgba(255,255,255,0.6);
-                    z-index: 300;
+                    background: rgba(255,255,255,0.6);                   
                     opacity: 0.6;
+                    display: none;                   
     //              border: 1px solid;
                     li{
                         list-style: none;

@@ -110,19 +110,12 @@ require(["config"],function(){
 			});
 			//注册	
 			
-			$("#longin").click(function(){
-				
-			var user=$(".lgp11").val(),
-				_password=$(".lgp31").val();				
-		 	var	values={
-				"name":user,
-				"value":_password
-			};	
-			if(user==''){
-				$(".lgp1").html("请输入账号");
-				$("#longin").attr("disabled","true");		
-			}else{
-				//判断是否存在cookie
+							
+		 	
+			$("#longin").click(function(){	
+				var user=$(".lgp11").val(),
+				_password=$(".lgp31").val();
+			//判断是否存在cookie
 			var _users=$.cookie("users");				
 			if(_users){
 			_users=JSON.parse(_users);
@@ -130,22 +123,22 @@ require(["config"],function(){
 			}
 			else
 			_users=[];
-//			console.log(_users)
-			//判断values里面的name是否存在于cookie中
-//			var c=_users.name;
-//			console.log(c)
-			var index=$.inArray(values.name,_users.name);
-//			console.log(index);
-			if(index==-1)
-				_users.push(values);
-			else
-			$(".lgp1").html("该账号以存在");			
+			var	values={
+				"name":user,
+				"value":_password
+			};			
+			$.each(_users, function(index,curr){
+				$.each(curr,function(key,val){
+					if(val==values.name)
+					$(".lgp1").html("该账号以存在");
+					else
+					_users.push(values);	
+				});																	
+			});
 			$.cookie("users",JSON.stringify(_users),{expires:1});
-			var a=$.cookie("users");
-			console.log(a)
-			}
-			
-							
+				var a=$.cookie("users");
+				console.log(_users)
+															
 		});
 				
 	});

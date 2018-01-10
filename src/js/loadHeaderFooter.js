@@ -48,18 +48,7 @@ define(["jquery"], function($){
 						"borderBottom":"none"
 					});					
 				}
-			});
-//		var top=$(".u3").scrollTop(),
-//		top1=$().scrollTop();
-//		console.log(top1);
-//		if(top1>=30){			
-//			$(".seach").css({
-//				"top":-30+"px",
-//				"borderBottom":"1px solid #7bbe2b",
-//				"background":"rgba(255,255,255,0.5)"
-//			});
-//		};
+			});		
 	});
-//	});
 	$(".footer").load("/html/include/footer.html");
 });

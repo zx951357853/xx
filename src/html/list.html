@@ -3,21 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>列表</title>
+	<link rel="stylesheet" type="text/css" href="../css/headerandfooter.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/list.css"/>
 	<script src="/lib/requirejs/require.js" data-main="/js/list"></script>
 </head>
 <body>
 	<div class="header"></div>
-
-	<div class="main">
-		
+	<div class="banner">
+		<img src="../images/大轮播/lb2.jpg"/>
 	</div>
-
+	<div class="list">
+		<div class="main">
+			
+		</div>
+	</div>
 	<script type="text/html" id="list_template">
 		{{each products as product}}
-		<div>
-			<div class="title">{{product.title}}</div>
-			<div class="price">{{product.price}}</div>
-			<div class="add">加入购物车</div>
+		<div class="main1">
+			<!--<a href="">-->
+				<img class="img" src="{{product.img}}"/>
+				<span class="title">{{product.title}}</span>
+			<!--</a>-->
+			<span class="price1">{{product.price1}}</span>
+			<span class="price2">{{product.price2}}</span>
+			<img class="img1" src="{{product.img1}}"/>
 		</div>
 		{{/each}}
 	</script>

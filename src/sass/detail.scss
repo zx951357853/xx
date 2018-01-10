@@ -1,0 +1,220 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.main{
+    height: 570px;
+    width: 100%;
+    .tit{
+        width: 1200px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .pic{
+        width: 1200px;
+        height: 520px;
+        margin: 0 auto;
+        .left{
+            width: 420px;
+            height: 520px;
+            float: left;
+            .left-top{
+                width: 420px;
+                height: 420px;
+                border: 1px solid #dddddd;
+            };
+            .left-bottom{
+                width: 420px;
+                height: 80px;
+                margin-top: 19px;
+                .left-bo-le,.left-bo-ri{
+                    width: 44px;
+                    height: 80px;
+                    float: left;
+                    text-align: center;
+                    line-height: 80px;
+                    font-size: 30px;
+                    font-weight: 900;
+                    color: #eeeeee;
+                    &:hover{cursor: pointer;}
+                }
+                .left-bo-cen{
+                    width: 332px;
+                    height: 80px;
+                    float: left;
+                }
+            }
+        }
+        .right{
+            width: 760px;
+            height: 457px;
+            float: right;
+            .right-top{
+                width: 760px;
+                height: 93px;
+                .rtp1{
+                    width: 760px;
+                    height: 43px;
+                    font-size: 23px;
+                    line-height: 43px;
+                }
+                .rtp2{
+                    width: 760px;
+                    height: 50px;
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+            .right-center{
+                width: 760px;
+                height: 202px;
+                border-bottom: 1px solid #dddddd;
+                .rc1{
+                    width: 760px;
+                    height: 105px;
+                    background: #fffbef;
+                    overflow: hidden;
+                    .rcr{
+                        width: 400px;
+                        height: 105px;
+                        margin-left: 10px;
+                        float: left;
+                        .rcr1{margin-top: 17.5px;}
+                        .rcr1,.rcr2{
+                            height: 35px;
+                            line-height: 30px;
+                            font-size: 12px;
+                        }
+                    }
+                    .rcl{
+                        width: 70px;
+                        height: 38px;
+                        float: right;
+                        .rcl1{
+                            font-size: 12px;
+                            margin: 27px 20px 0 0;
+                            color: #666666;
+                        }
+                        .rcl2{
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #ffd17c;
+                        }
+                    }
+                }
+                .rc2{
+                    width: 760px;
+                    height: 96px;
+                    .rc21{margin-top:22px ;}
+                    .rc21,.rc22{
+                        width: 760px;
+                        height: 26px;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #666666;
+                    }
+                }
+            }
+            .right-bottom{
+                width: 760px;
+                height: 162px;
+                .ri-bot-top{
+                    width: 760px;
+                    height: 42px;
+                    margin-bottom: 40px;
+                    input{
+                        width: 92px;
+                        height: 32px;
+                        margin-top:9px;
+                        float: left;
+                        margin-left: 10px;
+                       
+                    }
+                    span{
+                        float: left;
+                        margin-top: 10px;
+                        font-size: 12px;
+                        color: #666666;
+                        }
+                }
+                .ri-bot-center{
+                    width: 760px;
+                    height: 53px;
+                    span{
+                        font-size: 12px;
+                        float: left;
+                        width: 80px;
+                        height: 53px;
+                        line-height: 53px;
+                        color: #666666;
+                    }
+                    input:nth-child(2){
+                        width: 54px;
+                        height: 53px;
+                        outline: none;
+                        text-align: center;
+                        line-height: 53px;
+                        float: left;
+                        
+                    }
+                    input:nth-child(4),input:nth-child(5){
+                        width: 156px;
+                        height: 53px;
+                        outline: none;
+                         border-radius: 10px;
+                         border: none;
+                         color: white;
+                         font-weight: 600;
+                         font-size: 17px;
+                         float: left;
+                         margin-left: 10px;
+                         &:hover{
+                             cursor: pointer;
+                         }
+                    }
+                    input:nth-child(4){
+                        background: #ffc000;
+                       
+                    }
+                    input:nth-child(5){
+                        background: #7bbe2b;
+                       
+                    }
+                    .jiajian{
+                        width: 22px;
+                        height: 53px;
+                        float: left;
+                        .jia{
+                            display: inline-block;
+                            width: 20px;
+                            height: 28px;
+                            text-align: center;
+                            line-height: 25px;
+                            border: 1px solid #ffc000;
+                            &:hover{
+                             cursor: pointer;
+                         }
+                        }
+                        .jian{
+                            display: inline-block;
+                            width: 20px;
+                            height: 25px;
+                            border: 1px solid #dddddd;
+                            border-top: none;
+                            text-align: center;
+                            line-height: 25px;
+                            &:hover{
+                             cursor: pointer;
+                         }
+                        }
+                    }
+                }
+                .ri-bot-bot{
+                    width: 760px;
+                    height: 27px;
+                    font-size: 12px;
+                    line-height: 39px;
+                    color: #ffc000;
+                }
+                
+            }
+        }
+    }
+}
