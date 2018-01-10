@@ -13,13 +13,13 @@ require(["config"], function(){
 		
 		$(".main").on("click",".main1",function(){
 			var index=$(this).index();
-				$.getJSON("../mock/list.json", function(data){
-					var send=data.res_body.data[index];
-						send=JSON.stringify(send)
-					
-						console.log(send)
-					window.location.href=`http://localhost:8080/html/detail.html?send=${send}`;
-				})
+//				$.getJSON("../mock/list.json", function(data){
+////					var send=data.res_body.data[index];
+////						send=JSON.stringify(send)
+//					var index=$(this).index();
+						console.log(index)
+					window.location.href=`http://localhost:8080/html/detail.html?${index}`;
+//				})
 //				console.log(index)
 				
 			

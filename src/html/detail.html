@@ -10,8 +10,10 @@
 <body>
 	<div class="header"></div>
 
-	<div class="main">
-		<div class="tit"></div>
+	<div class="main"></div>
+		<script type="text/html" id="list_template">
+		{{each products as product}}
+		<div class="tit">{{product.title}}</div>
 		<div class="pic">
 			<div class="left">
 				<div class="left-top">
@@ -25,14 +27,14 @@
 			</div>
 			<div class="right">
 				<div class="right-top">
-					<p class="rtp1"></p>
-					<p class="rtp2"></p>
+					<p class="rtp1">{{product.title}}</p>
+					<p class="rtp2">{{product.dscrit}}</p>
 				</div>
 				<div class="right-center">
 					<div class="rc1">
 						<div class="rcr">
-							<p class="rcr1">折扣价：</p>
-							<p class="rcr2">原价：</p>
+							<p class="rcr1">折扣价：{{product.price1}}</p>
+							<p class="rcr2">原价：{{product.price2}}</p>
 						</div>
 						<div class="rcl">
 							<p class="rcl1">累计评价</p>
@@ -64,7 +66,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+		{{/each}}
+	</script>
+	
 
 	<div class="footer"></div>
 </body>
