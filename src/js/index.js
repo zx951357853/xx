@@ -51,9 +51,13 @@ require(["config"], function(){
 				return;
 				next=index;
 				_time();
-		})
+		});
+		var i=0;
 		$(".jx").delegate(".gt","click",function(){
-			$(".jx1 .uf1").css("margin-left",-1146+"px");
+			i=i+1;
+			var b=-1146*i;
+			$(".jx1 .uf1").css("margin-left",b+"px");
+			
 		});
 		//定位楼层的位置
 		//获取楼层的宽度和高度

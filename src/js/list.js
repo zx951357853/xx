@@ -8,9 +8,7 @@ require(["config"], function(){
 			// 渲染数据
 			var html = template("list_template", renderData);
 			$(".main").html(html);
-		});
-		
-		
+		});				
 		$(".main").on("click",".main1",function(){
 			var index=$(this).index();
 //				$.getJSON("../mock/list.json", function(data){

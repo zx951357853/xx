@@ -6,11 +6,30 @@
         width: 1200px;
         height: 50px;
         margin: 0 auto;
+        font-size: 14px;
+        line-height: 50px;
     }
     .pic{
         width: 1200px;
         height: 520px;
         margin: 0 auto;
+        position: relative;
+        .tu2{
+            width: 420px;
+            height: 420px;
+            border: 1px solid #dddddd;
+            position: absolute;
+            top: 0px;
+            left: 437px;
+            display: none;
+            overflow: hidden;
+            img{               
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                
+            }
+        }
         .left{
             width: 420px;
             height: 520px;
@@ -19,6 +38,20 @@
                 width: 420px;
                 height: 420px;
                 border: 1px solid #dddddd;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .box4{
+                    width: 140px;
+                    height: 140px;
+                    background: red;
+                    opacity: 0.3;
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    display: none;
+                }
             };
             .left-bottom{
                 width: 420px;
@@ -81,6 +114,10 @@
                             height: 35px;
                             line-height: 30px;
                             font-size: 12px;
+                        }
+                        .rcr2{
+                            span{text-decoration: line-through;}
+                            
                         }
                     }
                     .rcl{

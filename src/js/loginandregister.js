@@ -1,6 +1,7 @@
 require(["config"],function(){
-	require(["jquery","cookie"],function($){
-		//给手机密码登录绑定点击事件
+	require(["jquery","cookie"],function($,cookie){
+		$(function(){
+			//给手机密码登录绑定点击事件
 		$(".ulg2 .li21").click(function(){
 			$(".lg3").css("display","none");
 			$(".lg2").css("display","block");
@@ -112,33 +113,52 @@ require(["config"],function(){
 			
 							
 		 	
-			$("#longin").click(function(){	
+			
+			$("#longin").click(function(){
 				var user=$(".lgp11").val(),
-				_password=$(".lgp31").val();
-			//判断是否存在cookie
-			var _users=$.cookie("users");				
-			if(_users){
-			_users=JSON.parse(_users);
-			_users=Array.from(_users);
-			}
-			else
-			_users=[];
-			var	values={
-				"name":user,
-				"value":_password
-			};			
-			$.each(_users, function(index,curr){
-				$.each(curr,function(key,val){
-					if(val==values.name)
-					$(".lgp1").html("该账号以存在");
-					else
-					_users.push(values);	
-				});																	
+					_password=$(".lgp31").val();
+					var	values={
+					"name":user,
+					"value":_password
+					};
+				
+				//判断是否存在cookie
+				var _users=$.cookie("users");
+//					console.log(_users) 
+				if(_users){
+					_users=JSON.parse(_users);
+//					_users=Array.from(_users);
+//					console.log(_users)
+				}
+				else
+					_users=[];			
+				
+				
+				if(_users=[]){
+					_users.push(values)
+//					console.log(_users)
+				}else{
+					$.each(_users, function(index,curr){
+						if(curr=='')
+							_users.push(values)
+						else{
+							var a=curr.name;					
+		//					console.log(curr)
+							if(a==values.name)				
+								$(".lgp1").html("该账号已存在");
+							else
+								_users.push(values);
+						}
+													
+					});	
+				}
+//				console.log(_users)
+					
+				$.cookie("users",JSON.stringify(_users),{expires:1});
+				var b=$.cookie("users");
+				console.log(b)
 			});
-			$.cookie("users",JSON.stringify(_users),{expires:1});
-				var a=$.cookie("users");
-				console.log(_users)
-															
+				
 		});
 				
 	});
